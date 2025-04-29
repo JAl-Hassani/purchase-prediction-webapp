@@ -57,7 +57,7 @@ purchase-prediction-webapp/
 3. **Run the application**:
 
    ```bash
-   python purchase-prediction.py
+   streamlit run purchase-prediction.py
    ```
 
    Follow the on-screen prompts to input customer data and receive a purchase prediction.
@@ -66,10 +66,10 @@ purchase-prediction-webapp/
 
 ## 📦 Dependencies
 
+- `streamlit`
 - `scikit-learn`
 - `joblib`
 - `pandas`
-- `numpy`
 
 *(See `requirements.txt` for the full list.)*
 
