@@ -9,14 +9,14 @@ A machine learning-powered web application that predicts whether a customer will
 
 - **Binary Classification**: Predicts purchase likelihood (Yes/No).
 - **Pre-trained Model**: Utilizes a Random Forest classifier saved as `pipeline_rf.joblib`.
-- **Simple Interface**: Accepts user input via command-line prompts.
-- **Lightweight Deployment**: Runs as a standalone Python script—no web server required.
+- **Simple Interface**: Accepts user input via a simple graphical user interface.
+- **Lightweight Deployment**: Runs locally as a streamlit application.
 
 ---
 
 ## 🧠 How It Works
 
-The application loads a pre-trained machine learning pipeline and prompts the user to input relevant features. It then processes the input through the pipeline to predict the probability of a purchase.
+The application loads a pre-trained machine learning pipeline and prompts the user to input relevant features. It then processes the input through the pipeline to decide if a purchase will be made.
 
 ---
 
